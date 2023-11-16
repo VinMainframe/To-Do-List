@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.tasks-container, .completed-tasks {
+  border: 2px solid #ccc;
+  padding: 15px;
+  min-height: 200px;
+  width: 200px;
+}
+
+.task {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: grab;
+}
+
+.task:active {
+  cursor: grabbing;
+}
